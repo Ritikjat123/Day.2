@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Application</title>
+</head>
+<body>
+    <h1>Employee Application </h1>
+    <p>please complete the form below to apply for a position with us </p>
+   <form>
+    <label for="name">Name -</label>
+    <input type="text" id="name" placeholder="Enter your first here" minlength="2" maxlength="10" required>
+    <input type="text" id="name" placeholder="Enter your last here" minlength="2" maxlength="12" required>
+    <br>
+    <label for="email">Email -</label>
+    <input type="email" placeholder="enter your email here" id="email"  required>
+    <br>
+    <label for="contact">Contact - </label>
+    <input type="number" id="contect" placeholder="enter number" required>
+    <input type="number" id="contect" placeholder="enter number"required>
+   <br>
+    <label for="address">Address - </label> 
+    <input type="text" id="address" placeholder="enter street " maxlength="15" minlength="2" required>
+   <br>
+    <input type="text" id="address" placeholder="enter street 2" maxlength="15" minlength="2" required>
+    <br><input type="text" id="address" placeholder="city" maxlength="10" minlength="2" required>
+    <input type="text" id="address" placeholder="Religion" maxlength="10" minlength="2" required>
+<br>
+       <input type="number" id="address" placeholder="postal" maxlength="10" minlength="2" required>
+      <select name="select" id="select"><option value="select">please select</option></select>
+       <br><br>
+       
+       <label for="position">Apply for Position</label>
+       <input type="text" id="position" placeholder="enter position" maxlength="20" minlength="2" required>
+       <br><br><label for="start">When can you start?</label>
+        <input type="date" id="start" placeholder="enter date" required>
+        <br><br>
+        <label for="cover latter">Cover Latter</label>
+        <input type="file" id="cover latter" required>
+        <br><br>
+        <label for="Resume">Resume</label>
+        <input type="file" id="Resume" required><br><br>
+        <label for="textArea">Enter the message as it shown </label>
+        <textarea id="textArea" placeholder="Enter your message here"></textarea>
+        <br><br>
+        <input type="submit" value="submit" id="submit"> 
+        <input type="reset" value="reset" id ="reset">
+      </form>
+    </body>
+</html>
